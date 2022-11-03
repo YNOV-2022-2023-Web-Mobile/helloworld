@@ -1,0 +1,8 @@
+module.exports = {
+	globDirectory: 'public/',
+	globPatterns: [
+		'**/*.{png,html}'
+	],
+	swDest: 'public/servicewor',
+	swSrc: 'public/serviceworker.js'
+};

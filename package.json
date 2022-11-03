@@ -1,0 +1,22 @@
+{
+  "name": "helloword",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild --outfile=public/serviceworker.js --bundle public/serviceworker.ts && workbox injectManifest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/serviceworker": "^0.0.54",
+    "esbuild": "^0.15.12",
+    "typescript": "^4.8.4",
+    "workbox-cli": "^6.5.4",
+    "workbox-precaching": "^6.5.4",
+    "workbox-recipes": "^6.5.4",
+    "workbox-routing": "^6.5.4",
+    "workbox-strategies": "^6.5.4"
+  }
+}
